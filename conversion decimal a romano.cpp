@@ -3,7 +3,8 @@
  
 #include <iostream>
 using namespace std;
- 
+ //César Ronaldo Morales Samaniego
+ //Grupo: 1-1
 int main() {
     int x;
     cout << "ingrese un numero" << endl;
@@ -29,6 +30,8 @@ int main() {
         if (x >= 3)   { cout << "III"; x = x - 3;   }
         if (x >= 2)   { cout << "II"; x = x - 2;   }
         if (x >= 1)   { cout << "I"; x = x - 1;   }
+     //El codigo funciona correctamente pero me da curiosidad como es posible hacer eso, no sabia como hacer algo asi
+     //transformar decimales a romanos, me gustaria saber un poco mas de como se hace, una descripcion del proceso y es bastante interesante
     }
     cout << endl;
     cin.ignore();
