@@ -10,7 +10,7 @@ double saldo(double total) {
     return total;
 }
  
-void fin()
+void fin() //utilizada para hacer una limpieza al finalizar un programa 
  {
     cout << endl << "Gracias por usar este cajero, vuelva pronto." << endl << endl;
 }
@@ -30,7 +30,7 @@ double deposito(double total) {
     return total;
 }
  
-double retiro(double total) {
+double retiro(double total) { //double para représentar de mejor manera los números flotantes 
     double ret = 0;
     cout << endl;
     if (total == 0)
