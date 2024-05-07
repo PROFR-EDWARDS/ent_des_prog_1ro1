@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
- 
+ //Cesar Ronaldo Morales Samaniego
+ //Grupo: 1-1
+//Es impresionante como como poder programar algo asi, el mecanismo funciona correctamente y comprobe como funciona
+//la verdad me gustaria saber como poder hacer este tipo de programas, simulando mas cosas, ya que este cajero se ve que es facil de hacer
+//solo conocer algunos algunos comandos pero es algo que tampoco se ve tan dificil 
+
 double saldo(double total) {
     cout << endl;
     if (total == 0)
